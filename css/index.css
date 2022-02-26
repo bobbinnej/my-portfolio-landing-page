@@ -3,6 +3,13 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .nav-item{
@@ -13,9 +20,16 @@
     font-weight: bolder;
 }
 .image{
-    float:right;
-    
-  
+    float:left;
+     
 }  
+ .headings{
+    color:black;
+    background-color: white;
+    text-align: center;
+}
+.gold-words{
+    color: gold;
+}
 
 
