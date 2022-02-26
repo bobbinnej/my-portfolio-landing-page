@@ -21,6 +21,8 @@ body{
 }
 .image{
     float:left;
+    width="40%" 
+    height="40%"
      
 }  
  .headings{
@@ -30,6 +32,13 @@ body{
 }
 .gold-words{
     color: gold;
+}
+.body-words{
+    color: white;
+}
+.body-words ul {
+    color: white;
+
 }
 
 
