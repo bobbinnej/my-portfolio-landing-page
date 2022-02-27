@@ -9,8 +9,10 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
+   
     
 }
+
 
 .nav-item{
     font-size: 20px;   
@@ -40,5 +42,18 @@ body{
     color: white;
 
 }
+/*About section*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
 
+#brief-intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
 
