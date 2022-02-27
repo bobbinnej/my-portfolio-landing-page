@@ -5,10 +5,11 @@
     box-sizing: border-box;
 
 }
+/*this will make the navigation tabs active*/
 html{
     scroll-behavior: smooth;
 }
-
+/*This makes the background picture cover the whole background without repeating itself*/
 body{
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +17,7 @@ body{
     
 }
 
-
+/*Format the bootstrap navbar*/
 .nav-item{
     font-size: 20px;   
 }
@@ -71,10 +72,8 @@ body{
     color: white;
     margin-bottom: 15%;
 }
+
 /*style the contact section*/
-
-
-
 .input{
    width: 400px;
    height: 40px;
