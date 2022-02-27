@@ -25,6 +25,7 @@ body{
     float:left;
     width="40%" 
     height="40%"
+   
      
 }  
  .headings{
@@ -55,5 +56,16 @@ body{
     display: flex;
     flex-direction: column;
     text-align: justify;
+}
+.image1{
+    float:left;
+    width="45%" 
+    height="45%"
+   
+     
+} 
+.spacing{
+    color: white;
+    margin-bottom: 15%;
 }
 
