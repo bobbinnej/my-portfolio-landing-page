@@ -5,6 +5,7 @@
     <!--These are the links to link html files to bootstrap and css files respectively-->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
     <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/tablet.css" rel="stylesheet" media="screen and max-width:800px">
 
   </head>
   <!--Let's add a background image to our website-->
@@ -20,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#" style="color: white; text-transform: uppercase; font-weight: bold;">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="color: white; text-transform: uppercase; font-weight: bold;" >About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="color: white; text-transform: uppercase; font-weight: bold;">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" style="color: white; text-transform: uppercase; font-weight: bold;">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home" style="color: white; text-transform: uppercase; font-weight: bold;">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" style="color: white; text-transform: uppercase; font-weight: bold;" >About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" style="color: white; text-transform: uppercase; font-weight: bold;">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" style="color: white; text-transform: uppercase; font-weight: bold;">Contact</a></li>
                
           </ul>
         </div>
@@ -171,7 +172,7 @@
           <form action="" class="form">
              <input type="text" name="name" class="input" placeholder="Enter your name">
              <input type="email" name="email" class="input" placeholder="Enter your email">
-             <textarea name="msg" id="msg" cols="30" rows="10"placeholder= "Enter your message"></textarea>
+             <textarea type="text" class="input textarea-field" placeholder= "Enter your message"></textarea>
              <input type="submit" value="send" id="send">
           </form>
 
